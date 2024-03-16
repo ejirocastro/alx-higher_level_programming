@@ -1,1 +1,1 @@
-#MY FIRST PYTHON TASK
+0x00. Python - Hello, World
