@@ -1,3 +1,3 @@
 #!/bin/bash
-#get the methods and in the head request
-curl -sH "X-School-User-Id: 98" "$1"
+# a script that prints out the http methods a url accepts
+curl -sIX OPTIONS "$1" | grep -i 'allow' | cut -d ' ' -f2-
